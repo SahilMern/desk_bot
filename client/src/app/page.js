@@ -1,6 +1,11 @@
+import Home from "./components/Home/Home"
+
 const page = () => {
   return (
-    <div>page</div>
+    
+    <>
+    <Home />
+    </>
   )
 }
 
