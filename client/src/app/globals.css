@@ -13,38 +13,7 @@
     --foreground: #ededed;
   }
 }
-/* body{
-  background-color: #000;
+ body{
+  background-color: #151419;
   color: var(--foreground);
-}
-
-/* body { */
-  /* background-color: #0000; */
-  /* background: #e21a1a00; */
-  /* background: url("/mainbg1.jpg");   */
-  /* background-size: cover;   */
-  /* background-position: center;  */
-  /* font-family: Arial, Helvetica, sans-serif; */
-/* } */
-
-/* .Box{
-  backdrop-filter: blur(11px) saturate(200%);
-  -webkit-backdrop-filter: blur(11px) saturate(200%);
-  background-color: rgba(254, 254, 254, 0.092);
-  border-radius: 12px;
-  border: 1px solid rgba(209, 213, 219, 0.3);
-}  */
-
-body {
-  background-image: linear-gradient(to left bottom, #4c05fe, #1a20ca, #002194, #001b5f, #0d102c);
-  background-position: center;
-  color: white;
-}
-
-/* Glassmorphism card effect */
-.card {
-  backdrop-filter: blur(11px) saturate(200%);
-  -webkit-backdrop-filter: blur(11px) saturate(200%);
-  background-color: rgba(255, 255, 255, 0.426);
-  border-radius: 12px;
 }

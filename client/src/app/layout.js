@@ -1,13 +1,15 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
+// Load custom fonts from the public folder
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "/fonts/GeistVF.woff", // Updated path to public folder
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+  src: "/fonts/GeistMonoVF.woff", // Updated path to public folder
   variable: "--font-geist-mono",
   weight: "100 900",
 });
@@ -23,6 +25,17 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="flex justify-center items-center">
+          <div className="flex-1ss">
+            sahil yadav yadav yada hahahah Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia reprehenderit aperiam itaque odio in repellendus libero cumque molestias praesentium eius, repudiandae voluptates nesciunt ex veritatis tempore ipsa consectetur distinctio.
+          </div>
+          <div className="flex-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, suscipit
+            libero. Ea quidem rerum natus quos dicta exercitationem, sed dignissimos
+            voluptates laboriosam veniam nostrum. Culpa at ad ex iusto doloremque.
+          </div>
+        </div>
+        {/* Render children passed to RootLayout here */}
         {children}
       </body>
     </html>
